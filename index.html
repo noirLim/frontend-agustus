@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Challange</title>
+    <!-- Menyisipkan Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-white bg-white ml-3">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active mr-3">
+            <a class="nav-link nav-font-medium" href="#">Home</a>
+          </li>
+          <li class="nav-item dropdown mr-3">
+            <a
+              class="nav-link nav-font-medium dropdown-toggle"
+              href="#"
+              role="button"
+            >
+              Category
+            </a>
+          </li>
+          <li class="nav-item active mr-3">
+            <a class="nav-link nav-font-medium">Services</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link nav-font-medium">About Us</a>
+          </li>
+        </ul>
+
+        <div class="logo-container">
+          <div class="mx-auto d-flex flex-row">
+            <img src="./assets/icons/home.svg" class="house-logo" />
+            <h2 class="ml-2 house-font">Resto</h2>
+          </div>
+        </div>
+        <form class="form-inline my-2 my-lg-0 form-component">
+          <img
+            src="./assets/icons/search.svg"
+            class="icon-search"
+            alt="search icon"
+          />
+          <input
+            class="transparent-search mr-sm-2"
+            type="search"
+            placeholder="Search your favourite food"
+            aria-label="Search"
+          />
+          <button class="btn login-btn my-2 my-sm-0 mr-1" type="submit">
+            Log in
+          </button>
+        </form>
+      </div>
+    </nav>
+
+    <div class="bg-banner">
+      <div class="banner-one">
+        <img
+          class="d-flex justify-content-center image-banner"
+          src="./assets/images/banner.png"
+        />
+        <div class="card-location">
+          <div class="card-location-rating">
+            <img class="card-star" src="./assets/icons/star.svg" />
+            <img class="card-star" src="./assets/icons/star.svg" />
+            <img class="card-star" src="./assets/icons/star.svg" />
+            <img class="card-star" src="./assets/icons/star.svg" />
+            <img class="card-star" src="./assets/icons/star.svg" />
+            <p class="rating-score">5.0</p>
+            <p class="card-visitor">(5.2K+)</p>
+          </div>
+          <div class="card-location-info">
+            <h2>Padang Restaurant</h2>
+          </div>
+          <div class="card-location-info">
+            <p class="card-location-price">IDR 49.999 - 560.000</p>
+          </div>
+          <div class="card-location-info">
+            <img src="./assets/icons/location.svg" />
+            <p class="card-location-place">Padang, Indonesia</p>
+          </div>
+          <button class="button-reserve">
+            <p class="m-auto">Make Reservation ></p>
+          </button>
+          <div class="card-location-info">
+            <img src="./assets/icons/info_square.svg" />
+            <p class="card-location-place">No extra cost</p>
+          </div>
+        </div>
+      </div>
+      <div class="banner-two">
+        <img src="./assets/images/banner-2.png" class="image-banner-2" />
+      </div>
+    </div>
+
+    <div class="bg-about">
+      <div class="row">
+        <div class="col-md-12">
+          <p class="special-font">SPECIAL BENEFIT FOR YOU</p>
+          <p class="special-caption">Why Should Choose Us?</p>
+        </div>
+        <div class="col-md-3 mx-auto">
+          <div class="card-benefit">
+            <div class="card-circle">
+              <img class="card-icon" src="./assets/icons/discount.svg" />
+            </div>
+            <div class="card-title">Extra Discount</div>
+            <div class="card-caption">
+              Get your special discount by using our reservation
+            </div>
+            <div class="card-button-toogle">
+              <p class="card-button-caption">View Details ></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mx-auto">
+          <div class="card-benefit">
+            <div class="card-circle">
+              <img class="card-icon" src="./assets/icons/fork.svg" />
+            </div>
+            <div class="card-title">Come & Eat</div>
+            <div class="card-caption">
+              Get your own table quikly & without waiting in line
+            </div>
+            <div class="card-button">
+              <p class="card-button-caption">View Details ></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mx-auto">
+          <div class="card-benefit">
+            <div class="card-circle">
+              <img class="card-icon" src="./assets/icons/pay.svg" />
+            </div>
+            <div class="card-title">No Extra Fee</div>
+            <div class="card-caption">
+              Get a tax free if you want to order food and make a reservation
+            </div>
+            <div class="card-button">
+              <p class="card-button-caption">View Details ></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mx-auto">
+          <div class="card-benefit">
+            <div class="card-circle">
+              <img class="card-icon" src="./assets/icons/sparkle.svg" />
+            </div>
+            <div class="card-title">No Extra Fee</div>
+            <div class="card-caption">
+              Get a tax free if you want to order food and make a reservation
+            </div>
+            <div class="card-button">
+              <p class="card-button-caption">View Details ></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-resto">
+      <div class="row">
+        <div class="col-md-3 mx-auto border border-dark">
+          <div class="resto-title-container">
+            <p class="title-resto text-left">TOP 3 FEATURED RESTAURANT</p>
+            <p class="title-popular text-left">Most Popular Restaurants</p>
+          </div>
+          <div class="resto-caption">
+            The best restaurant in our opinions is how much customers
+            like it in terms of place,price comfort and of course the taste of
+            the food itself
+          </div>
+          <div
+        </div>
+        <div class="col-md-3 mx-auto border border-dark"></div>
+        <div class="col-md-2 mx-auto border border-dark"></div>
+        <div class="col-md-2 mx-auto border border-dark"></div>
+      </div>
+    </div>
+
+    <!-- Menyisipkan query dan javascript bootstrap -->
+    <script src="js/bootstrap.js" />
+  </body>
+</html>

@@ -1,0 +1,344 @@
+@font-face {
+  font-family: Poppins Regular;
+  src: local("Poppins-Regular"),
+    url("/fonts/Poppins/Poppins-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Poppins Medium;
+  src: local("Poppins-Medium"),
+    url("/fonts/Poppins/Poppins-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Poppins Semi-Bold;
+  src: local("Poppins-SemiBold"),
+    url("/fonts/Poppins/Poppins-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Nunito ExtraBold;
+  src: local("Nunito-ExtraBold"),
+    url("/fonts/Nunito/static/Nunito-ExtraBold.ttf") format("truetype");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #fafafa;
+}
+
+/* Section navbar */
+.nav-font-medium {
+  font-family: Poppins Medium;
+  font-size: 16px;
+  color: #232631;
+}
+
+.logo-container {
+  display: flex;
+  width: 550px;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5px;
+}
+
+.house-logo {
+  width: 34px;
+  height: 34px;
+}
+
+.house-font {
+  font-family: Nunito ExtraBold;
+  font-size: 28px;
+}
+
+.icon-search {
+  margin-right: 10px;
+}
+
+.form-component {
+  margin-right: 25px;
+}
+
+.transparent-search {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  width: 240px;
+  font-family: Poppins Medium;
+  font-size: 16px;
+}
+
+.login-btn {
+  background-color: #ebeaf7;
+  border: 1px solid #ebeaf7;
+  border-radius: 10px;
+  width: 100px;
+  padding: 15px;
+  color: #5a4fcf;
+  font-family: Poppins Semi-Bold;
+  font-size: 16px;
+}
+
+/* Section banner */
+.bg-banner {
+  width: auto;
+  height: 720px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.banner-one {
+  width: 1200px;
+  height: 620px;
+  margin-left: 130px;
+  margin-top: 60px;
+}
+
+.image-banner {
+  border-radius: 70px;
+  width: 1200px;
+  height: auto;
+}
+
+.card-location {
+  width: 400px;
+  height: 297px;
+  background-color: white;
+  border-radius: 30px;
+  position: absolute;
+  top: 280px;
+  left: 35px;
+}
+
+.card-location-rating {
+  width: 250px;
+  height: 30px;
+  display: flex;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.card-star {
+  width: 24px;
+  height: 24px;
+  margin-right: 5px;
+}
+
+.rating-score {
+  font-family: Poppins Semi-Bold;
+  font-size: 20px;
+  color: #ffb800;
+}
+
+.card-visitor {
+  font-family: Poppins Regular;
+  color: #656565;
+  font-size: 20px;
+}
+
+.card-location-info {
+  width: 270px;
+  height: 30px;
+  margin-left: 30px;
+  margin-top: 10px;
+  display: flex;
+}
+
+.card-location-info h2 {
+  font-family: Poppins Semi-Bold;
+  font-size: 27px;
+}
+
+.card-location-price {
+  font-family: Poppins Semi-Bold;
+  font-size: 25px;
+  color: #656565;
+}
+
+.card-location-place {
+  font-family: Poppins Regular;
+  font-size: 20px;
+  color: #656565;
+  margin-left: 10px;
+}
+
+.button-reserve {
+  width: 270px;
+  height: 55px;
+  background-color: #fdc886;
+  border-radius: 15px;
+  margin-left: 30px;
+  margin-top: 20px;
+  border: none;
+  font-family: Poppins Semi-Bold;
+  font-size: 17px;
+}
+
+/* Gambar-2 */
+.banner-two {
+  width: 200px;
+  height: 620px;
+  margin-top: 60px;
+}
+.image-banner-2 {
+  border-top-left-radius: 70px;
+  border-bottom-left-radius: 70px;
+  /* padding: 30px 0px 30px 30px; */
+  height: 590px;
+  margin-left: 51.5px;
+}
+
+/* Section about */
+.bg-about {
+  width: 1400px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  padding-bottom:50px;
+}
+
+.special-font {
+  color: #5a4fcf;
+  font-family: Poppins Semi-Bold;
+  text-align: center;
+  font-size: 16px;
+}
+
+.special-caption {
+  font-family: Poppins Semi-Bold;
+  text-align: center;
+  font-size: 28px;
+}
+
+.card-benefit {
+  width: 330px;
+  height: 350px;
+  border-radius: 40px;
+  background-color: white;
+  position: relative,
+  
+}
+
+.card-circle {
+  width: 100px;
+  height: 100px;
+  background-color: #fff7ed;
+  margin-left:auto;
+  margin-right:auto;
+  border-radius: 50%;
+  position:absolute;
+  left: 0;
+  right:0;
+  top:30px;
+}
+
+.card-icon {
+  width:100px;
+  height:100px;
+  padding:10px;
+}
+
+.card-title{
+  width:200px;
+  height:30px;
+  position:absolute;
+  left:0;
+  right:0;
+  top:150px;
+  margin-left:auto;
+  margin-right:auto;
+  font-family: Poppins Semi-Bold;
+  text-align: center;
+  font-size:22px;
+}
+
+.card-caption{
+  width:280px;
+  height:50px;
+  left:0;
+  right:0;
+  margin-left:auto;
+  margin-right:auto;
+  top:200px;
+  position:absolute;
+  font-family: Poppins Regular;
+  color:#656565;
+  text-align:center;
+  font-size:16px;
+}
+
+.card-button-toogle{
+  width:330px;
+  height:72px;
+  background-color:#FDC886;
+  position:absolute;
+  bottom:0;
+  border-radius:20px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+.card-button{
+  width:330px;
+  height:72px;
+  position:absolute;
+  bottom:0;
+  border-radius:20px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+.card-button-caption{
+  text-align: center;
+  padding-top:20px;
+  font-family: Poppins Semi-Bold;
+  font-size:16px;
+}
+
+/* Most Popular restaurant */
+.bg-resto {
+  width: 1400px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  padding-bottom:50px;
+  border:1px solid black;
+}
+
+.resto-title-container{
+  width:300px;
+  height:90px;
+  border:1px solid red;
+  margin-top:70px;
+}
+
+.title-resto {
+  color: #5a4fcf;
+  font-family: Poppins Semi-Bold;
+  text-align: center;
+  font-size: 16px;
+}
+
+.title-popular {
+  font-family: Poppins Semi-Bold;
+  text-align: center;
+  font-size: 22px;
+}
+
+.resto-caption{
+  width:300px;
+  height:auto;
+  border:1px solid black;
+  text-align:justify;
+  font-size:16px;
+  font-family: Poppins Regular;
+  color:#656565;
+}

@@ -1,0 +1,41 @@
+<div class="container-fluid bg-white">
+      <div class="row justify-content-md-center">
+        <div class="col col-lg-9 position-relative mx-3">
+          <img
+            class="d-flex justify-content-center mx-auto image-banner"
+            src="./assets/images/banner.png"
+          />
+          <div class="card-location">
+            <div class="card-location-rating">
+              <img class="card-star" src="./assets/icons/star.svg" />
+              <img class="card-star" src="./assets/icons/star.svg" />
+              <img class="card-star" src="./assets/icons/star.svg" />
+              <img class="card-star" src="./assets/icons/star.svg" />
+              <img class="card-star" src="./assets/icons/star.svg" />
+              <p class="rating-score">5.0</p>
+              <p class="card-visitor">(5.2K+)</p>
+            </div>
+            <div class="card-location-info">
+              <h2>Padang Restaurant</h2>
+            </div>
+            <div class="card-location-info">
+              <p class="card-location-price">IDR 49.999 - 560.000</p>
+            </div>
+            <div class="card-location-info">
+              <img src="./assets/icons/location.svg" />
+              <p class="card-location-place">Padang, Indonesia</p>
+            </div>
+            <button class="button-reserve">
+              <p class="m-auto">Make Reservation ></p>
+            </button>
+            <div class="card-location-info">
+              <img src="./assets/icons/info_square.svg" />
+              <p class="card-location-place">No extra cost</p>
+            </div>
+          </div>
+        </div>
+        <div class="col col-md-1 mx-3">
+          <img src="./assets/images/banner-2.png" class="image-banner-2" />
+        </div>
+      </div>
+    </div>
