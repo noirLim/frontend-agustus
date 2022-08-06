@@ -310,14 +310,13 @@ body {
   margin-right: auto;
   margin-top: 50px;
   padding-bottom:50px;
-  border:1px solid black;
 }
 
 .resto-title-container{
   width:300px;
   height:90px;
-  border:1px solid red;
   margin-top:70px;
+  margin-left:-18px;
 }
 
 .title-resto {
@@ -334,11 +333,228 @@ body {
 }
 
 .resto-caption{
-  width:300px;
+  width:280px;
   height:auto;
-  border:1px solid black;
   text-align:justify;
   font-size:16px;
   font-family: Poppins Regular;
   color:#656565;
+  margin-left:-18px;
+}
+
+.view-resto-btn{
+  width:250px;
+  height:50px;
+  background-color:#FDC886;
+  margin-top:30px;
+  border-radius:10px;
+  margin-left:-18px;
+}
+
+.view-resto-font{
+  font-family: Poppins Semi-Bold;
+  text-align: center;
+  font-size: 15px;
+  padding-top:15px;
+}
+
+.resto-one-photo{
+  width:420px;
+  margin-left:auto;
+  margin-right:auto;
+  display: block;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.resto-caption-info{
+  width:360px;
+  height:130px;
+  background-color:white;
+  position:absolute;
+  /* border:1px solid black; */
+  left:0;
+  right:0;
+  bottom:20px;
+  border-radius: 20px;
+}
+
+.resto-rating{
+  width:140px;
+  height:30px;
+  margin-left:30px;
+  margin-top:15px;
+  display:flex;
+}
+
+.resto-star-icon{
+  width:25px;
+  height:25px;
+  margin-right:5px;
+}
+
+.resto-rate-value{
+  font-family:Poppins Semi-Bold;
+  color:#FFB800;
+  font-size: 20px;
+}
+
+.resto-visitor-val{
+  color:#656565;
+  font-family:Poppins Regular;
+}
+
+.resto-location-con{
+  width:300px;
+  height:35px;
+  margin-left:30px;
+  margin-top:5px;
+  display:flex;
+}
+
+.resto-location-title{
+  font-family:Poppins Semi-Bold;
+  font-size:18px;
+}
+
+.resto-view-button{
+  width:36px;
+  height:36px;
+  background-color:#FDC886;
+  margin-left:auto;
+  border-radius:7px;
+}
+
+.resto-arrow{
+  display:block;
+  margin-left:auto;
+  margin-right: auto;
+  margin-top:5px;
+}
+
+.resto-location-map{
+  width:260px;
+  height:28px;
+  margin-left:30px;
+  display:flex;
+}
+
+.resto-location-size{
+  width:23px;
+  height:23px;
+}
+
+.resto-location-info{
+  font-family: Poppins Regular;
+  color:#656565;
+  margin-left:9px;
+  font-size:17px;
+}
+
+.resto-item-img{
+  height:500px;
+  border-radius:30px;
+  margin-left:-10px;
+}
+
+/* section navigasi resto */
+.bg-resto-navigation{
+  width: 1400px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  padding-bottom:50px;
+
+}
+
+.resto-content-container{
+  width:600px;
+  height:auto;
+
+}
+
+.nav-resto-title{
+  color: #5a4fcf;
+  font-family: Poppins Semi-Bold;
+  font-size: 16px;
+}
+
+.nav-resto-highlight{
+  font-family:Poppins Semi-Bold;
+  font-size:28px;
+}
+
+.nav-select-location{
+  width:600px;
+  height:auto;
+  margin-left:auto;
+}
+
+.nav-select{
+  background-color:#F2F2F2;
+  width:252px;
+  height:64px;
+  border-radius:10px;
+  margin-left:auto;
+  margin-top:15px;
+  display:flex;
+}
+
+.nav-location-icon{
+  width:23px;
+  height:23px;
+  margin-left:auto;
+  margin-right:10px;
+  margin-top:20px;
+}
+
+.nav-location-font{
+  font-family:Poppins Regular;
+  color:#656565;
+  margin-top:20px;
+  margin-right:auto;
+}
+
+.nav-location-down{
+  width:25px;
+  height:25px;
+}
+
+.nav-resto-one-photo{
+  width:420px;
+  margin-left:auto;
+  margin-right:auto;
+  display: block;
+  border-radius:30px;
+}
+
+.nav-resto-price{
+  width:260px;
+  height:28px;
+  margin-left:30px;
+  display:flex;
+  font-family:Poppins Semi-Bold;
+  color:#656565;
+  font-size: 18px;
+}
+
+.nav-view-resto-btn{
+  width:250px;
+  height:50px;
+  background-color:#FDC886;
+  margin-top:30px;
+  border-radius:10px;
+  display:flex;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.nav-view-resto-font{
+  font-family: Poppins Semi-Bold;
+  text-align: center;
+  font-size: 15px;
+  padding-top:15px;
+  margin-left:auto;
+  margin-right:auto;
 }
